@@ -18,6 +18,27 @@ To run the Shades-Backend project locally, follow these steps:
 4. Run the project using `npm start`.
 5. The server will start locally, and you can access it at the specified port.
 
+## Environment Variables 🌐
+
+Make Sure to Create a `config.env` file in the `backend/config` directory and add appropriate variables in order to use the app.
+
+**Essential Variables**
+- `PORT=` 🌟
+- `DB_URI=` 🌟
+- `JWT_SECRET=` 🌟
+- `JWT_EXPIRE=` 🌟
+- `COOKIE_EXPIRE=` 🌟
+- `SMPT_SERVICE=` 🌟
+- `SMPT_MAIL=` 🌟
+- `SMPT_PASSWORD=` 🌟
+- `SMPT_HOST=` 🌟
+- `SMPT_PORT=` 🌟
+- `CLOUDINARY_NAME` 🌟
+- `CLOUDINARY_API_KEY` 🌟
+- `CLOUDINARY_API_SECRET` 🌟
+
+_Fill each field with your info respectively._
+
 ## Technologies Used 🌐
 
 <div align="center">
